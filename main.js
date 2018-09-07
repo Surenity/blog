@@ -13,8 +13,9 @@
           let random = document.createElement("p")
           let textrandom = document.createTextNode("words and things")
           random.appendChild(textrandom)
+          console.log(blogContainer)
           document.getElementById("blogContainer").appendChild(textrandom)
-            console.log(blogContainer)
+            
 
         }
       // console.log(response)
